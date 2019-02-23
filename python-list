@@ -1,0 +1,17 @@
+In [12]: a ="abcdefgh"
+
+In [13]: b = list(a)
+
+In [14]: b
+Out[14]: ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']
+
+In [15]: b[:2]
+Out[15]: ['a', 'b']
+
+In [16]: b[2:]
+Out[16]: ['c', 'd', 'e', 'f', 'g', 'h']
+
+In [17]: res = ''.join(b[2:]) + ''.join(b[:2])
+
+In [18]: res
+Out[18]: 'cdefghab'
